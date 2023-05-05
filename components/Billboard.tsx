@@ -16,8 +16,8 @@ const Billboard = () => {
           {data?.description}
         </p>
         <div className="flex flex-row items-center mt-3 md:mt-4 gap-3">
-          <Playbutton />
-          {/* movieId={data?.id}  */}
+          <Playbutton movieId={data?.id} />
+          
           <button
             // onClick={handleOpenModal}
             className="
