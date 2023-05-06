@@ -6,7 +6,7 @@ import MovieList from "@/components/MovieList";
 import useMovieList from '@/hooks/useMovieList';
 import useFavorites from '@/hooks/useFavorites';
 import InfoModal from "@/components/infoModal";
-import useInfoModalStore from "@/hooks/useInfoModal";
+import useInfoModalStore from "@/hooks/useinfoModalCorrected";
 
 
 

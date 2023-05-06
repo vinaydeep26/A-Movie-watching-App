@@ -2,7 +2,7 @@ import useBillboard from '@/hooks/useBillboard';
 import React, { useCallback } from 'react'
 import Playbutton from './Playbutton';
 import { AiOutlineInfoCircle } from 'react-icons/ai'
-import useInfoModalStore from '@/hooks/useInfoModal';
+import useInfoModalStore from '@/hooks/useinfoModalCorrected';
 
 const Billboard = () => {
   const { openModal } = useInfoModalStore();

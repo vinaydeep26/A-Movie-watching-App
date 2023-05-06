@@ -3,7 +3,7 @@ import React, { useCallback, useEffect, useState } from 'react';
 
 import PlayButton from '@/components/Playbutton';
 import FavoriteButton from '@/components/FavoriteButton';
-import useInfoModalStore from '@/hooks/useInfoModal';
+import useInfoModalStore from '@/hooks/useinfoModalCorrected';
 import useMovie from '@/hooks/useMovie';
 import { AiOutlineClose } from 'react-icons/ai';
 

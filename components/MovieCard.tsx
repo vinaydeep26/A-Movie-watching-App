@@ -4,7 +4,7 @@ import React, { useCallback } from 'react';
 import { BsChevronDown, BsFillPlayFill } from 'react-icons/bs';
 import FavoriteButton from './FavoriteButton';
 import { useRouter } from 'next/router';
-import useInfoModalStore from '@/hooks/useInfoModal';
+import useInfoModalStore from '@/hooks/useinfoModalCorrected';
 
 interface MovieCardProps {
     data: MovieInterface;
